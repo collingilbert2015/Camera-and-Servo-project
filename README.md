@@ -11,10 +11,10 @@ There is plenty to learn and a lot of fun frameworks to play with. My usage of t
 
 What you'll need: 
 
-Servo
-Servo Hat
-Raspberry Pi
-Soddering Iron
+Servo,
+Servo Hat,
+Raspberry Pi,
+and Soddering Iron
 
 </content>
 </snippet>
