@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+   <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" integrity="sha384-XXXXXXXX" crossorigin="anonymous">
+   <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" integrity="sha384-XXXXXXXX" crossorigin="anonymous"></script>
+    
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script language="javascript" type="text/javascript">
+            function Button_onclick(direction) {
+            $.ajax({
+                url: '/' + direction
+            });
+        }
+    </script>
+      <div class="jumbotron">
+        <div class="page-header">
+        <h1>Collin's Awesome Fucking Project</h1>
+        </div>
+        <p>This project moves a camera where you click left or right. 
+     
+    </div>
+</head>
+
+
+<body>
+        
+
+    <table align="center" class="style1">
+        <tr>
+            <td colspan="2" style="text-align: center">     
+            
+                <button type="button1" onclick="Button_onclick('left')" class="btn btn-primary">LEFT</button>
+                <button type="button2" onclick="Button_onclick('right')" class="btn btn-primary">RIGHT</button>
+                <button type="button3" onclick="Button_onclick('home')" class="btn btn-primary">RETURN</button>
+                
+                <input id="btnLeft" type="button" value="Left" onclick="Button_onclick('left')" />
+                <input id="btnRight" type="button" value="Right" onclick="Button_onclick('right')" />
+                <input id="homeButton" type="button" value="Return" onclick="Button_onclick('return')" />
+            </td>
+        </tr>
+
+    </table>
+
+    <div class = "videocontainer">
+	<img src="http://192.168.1.6:8080/?action=stream"/>
+	</div>
+	
+	
+</body>
+</html>

@@ -1,0 +1,18 @@
+.jumbotron{
+    text-align: center;
+    width: 100% ;
+    display: block;
+    height: 100%;
+    font-family: sans-serif;
+    border-color: #000000;
+    border-style: solid;
+}
+
+h1{
+    font-size: xx-large;
+    text-align: center;
+}
+.videocontainer{
+   text-align:center;
+    display:block;
+}
