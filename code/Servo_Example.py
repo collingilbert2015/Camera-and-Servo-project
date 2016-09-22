@@ -3,7 +3,7 @@ from Adafruit_PWM_Servo_Driver import PWM
 import time
 from flask import Flask, render_template, request
 # ===========================================================================
-#                       COLLIN'S FREAKIN' AWESOME WEBCAM APP THING
+#                      AWESOME WEBCAM APP THING
 # ===========================================================================
 
 # Initialise the PWM device using the default address
