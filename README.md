@@ -9,5 +9,12 @@ I use it to watch my cat when I'm away, but I'm sure you can find more interesti
 
 There is plenty to learn and a lot of fun frameworks to play with. My usage of the servo libraries is bad. There are plenty of better ways to get the servo to spin that aren't as janky. So feel free to let me know where I went wrong!
 
+What you'll need: 
+
+Servo
+Servo Hat
+Raspberry Pi
+Soddering Iron
+
 </content>
 </snippet>
