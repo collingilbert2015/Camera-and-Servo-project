@@ -3,7 +3,7 @@ from Adafruit_PWM_Servo_Driver import PWM
 import time
 from flask import Flask, render_template, request
 # ===========================================================================
-#                       COLLIN'S FREAKIN' AWESOME WEBCAM APP THING
+#                       COLLIN'S AWESOME WEBCAM APP PROJECT
 # ===========================================================================
 
 # Initialise the PWM device using the default address
@@ -106,11 +106,10 @@ def setServoPulse(channel, pulse):
   pwm.setPWM(channel, 0, pulse)
 
 #----------------------------------------------------
+#This cleans up and clears the device. Otherwise it will keep spinning.
+
 def cleanup():
         pwm.setPWM(0,0,0)
-#-----------------------------------------------------------------------------
-# +++++++++++++++++++++RETURN FUNCTION+++++++++++++++++++++++++++++++++++++++
-#-----------------------------------------------------------------------------
 
 
 #----------------------------------------------------
